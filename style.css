@@ -1,0 +1,141 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.emran-header a.navbar-brand {
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.emran-header span {
+    color: white;
+    background: blue;
+    display: inline-block;
+    width: 39px;
+    height: 47px;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 32px;
+    position: relative;
+    top: 5px;
+}
+.slider-section {
+    background: url(https://i.ibb.co/12Fw5sr/Reminii.jpg);
+    background-size: auto;
+    padding: 200px 0px;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(34, 4, 4, 0.493);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.slider-form{
+    margin-top: 40px;
+}
+
+
+.header-input{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.header-btn{
+    padding: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    background: green;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* about section  */
+.about-section {
+    background-color: rgb(0, 0, 0);
+}
+
+.about-img img{
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+.about-img img::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 210, 210);
+
+}
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+/* feature-section css  */
+
+.feature-section{
+    background: rgb(246, 235, 218);
+}
+.feature-img img {
+    width: 500px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+
+
+}
+.feature-text {
+    padding: 12px;
+    margin-top: 41px;
+}
+
+.feature-item {
+    box-shadow: 2px 10px 7px 2px;
+    border-radius: 10px;
+    background: white;
+}
+
+/* portolio section css  */
+
+.portolio-img {
+    max-width: 100%;
+    height: 300px;
+}
+.portolio-img a img{
+    width: 100%;
+    height: 100%;
+}
+.portolio-img a img{
+    display: block;
+    position: relative;
+}
+.portolio-img a img::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(119, 51, 51);
+
+}
